@@ -17,9 +17,13 @@ python manage.py runserver
 ctrl+c
 apps: accounts, carts, orders, products (start with app which has the least dependency)
 python manage.py startapp accounts
+create CustomUser model
+...
+pip freeze
+pip install -r requirements.txt
 
-
-
+copy views.py, forms.py, utils.py
+python manage.py makemigrations
 
 
 
