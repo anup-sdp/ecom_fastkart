@@ -1,0 +1,38 @@
+e-commerce(FastKart) class 1, module 22, - by yasir mahbub
+
+cmd:
+pip install virtualenv
+python -m venv myenv
+myenv\Scripts\activate
+pip install django
+
+code .
+
+create .gitignore
+
+-----
+django-admin startproject fastkart .
+python manage.py runserver
+ctrl+c
+apps: accounts, carts, orders, products (start with app which has the least dependency)
+python manage.py startapp accounts
+
+
+
+
+
+
+
+
+
+=======================
+github upload:
+git init
+git status
+git add .
+git status
+git commit -m "initial commit"
+git status
+gitlab: code button : clone with https link (copy)
+git remote add gitlab https://gitlab.com/anup11511347/django_todo_auth.git (paste)
+git push -u -f gitlab master
