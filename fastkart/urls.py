@@ -21,3 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 	path("accounts/",include("accounts.urls")),
 ]
+
+# er diagram: https://drawsql.app/teams/personal-2601/diagrams/single-vendor-e-commerce-project
+# full project: https://github.com/yasirmahabub/FastKart-E-Commerce
